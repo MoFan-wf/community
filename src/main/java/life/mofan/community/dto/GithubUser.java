@@ -29,7 +29,19 @@ public class GithubUser {
         return bio;
     }
 
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
+
     public void setBio(String bio) {
         this.bio = bio;
+
+
     }
+
 }

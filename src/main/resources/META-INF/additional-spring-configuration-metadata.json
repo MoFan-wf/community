@@ -14,5 +14,15 @@
       "name": "github.client.redirect_uri",
       "type": "java.lang.String",
       "description": "Description for github.client.redirect_uri."
+    },
+    {
+      "name": "system-properties-mode",
+      "type": "java.lang.String",
+      "description": "Description for system-properties-mode."
+    },
+    {
+      "name": "github.client.id",
+      "type": "java.lang.String",
+      "description": "Description for github.client.id."
     }
   ] }
